@@ -1,0 +1,97 @@
+/*
+body {
+  
+    background-color: blue;
+    background-image: url(images/35968989-summer-pictures.jpg);
+   
+    background-position: center;
+    background-repeat: repeat-y;
+    color: aliceblue;
+}
+*/
+
+/*
+.main {
+    width: 80%;
+    margin: auto;
+    display: inline-block;
+}
+*/
+.color{
+    color: black;
+}
+.upper{
+    text-transform: uppercase;
+}
+img{
+    opacity: 0.5;
+    width: 390px;
+    height: 390px;
+}
+img:hover{
+    opacity: 1;
+}
+/*
+div{
+    
+    padding: 40px;
+}
+*/
+/*
+input:focus {
+    background-color: yellow;
+}*/
+li {
+color: black;
+}
+#static{
+    
+   border: 5px solid black;
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+}
+ui-view{
+    display: inline-block;
+}
+.side-div{
+    border:2px solid black;
+    width: 30%;
+    display: inline-block;
+    height: 1000px;
+    position: relative;
+    margin-top: -222px;
+    
+}
+.header{
+     border: 2px solid black;
+    width: 100%;
+    height: 100px;
+  }
+.main-div{
+     border: 2px solid black;
+    width: 69.5%;
+    display: inline-block;
+    height: 1000px;
+     position: static;
+}
+
+.inline{
+    display: block;
+    overflow: auto;
+    float: left;
+}
+
+
+table, th , td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+   
+}
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
